@@ -1,0 +1,21 @@
+{
+  "name": "language-webedition",
+  "version": "0.0.1",
+  "description": "webEdition language support in Atom",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "http://www.rghmyr.de",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rghmyr/language-webedition.git"
+  },
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/rghmyr/language-webedition/issues"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.10.1"
+  }
+}
