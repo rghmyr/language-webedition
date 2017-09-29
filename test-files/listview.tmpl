@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title></title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #title {
+        color: #000055;
+      }
+      .editorial {
+        font-style: italic;
+      }
+    </style>
+    <script></script>
+  </head>
+  <body>
+    <h1 id="title"></h1>
+    <p class="editorial">
+      <?php
+        echo "test";
+        $testArray = array("text" => "test");
+        print_r($testArray);
+      ?>
+    </p>
+    <we:listview comment="Listview">
+      <we:ifFound>
+        <we:repeat>
+          <we:ifFieldNotEmpty match="content">
+            <we:field type="text" name="content" />
+          </we:ifFieldNotEmpty>
+        </we:repeat>
+      <we:else/>
+        <we:comment><p>Nothing found.</p></we:comment>
+      </we:ifFound>
+    </we:listview>
+  </body>
+</html>

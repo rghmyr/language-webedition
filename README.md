@@ -1,5 +1,3 @@
-# webEdition language support in Atom
+# webEdition language package
 
-Adds syntax highlighting and snippets to webEdition Template files in Atom.
-
-Only a Test
+webEdition language package require language_php package
